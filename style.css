@@ -1,0 +1,109 @@
+html {
+    font-size: 62.5;
+}
+
+* {
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+button:focus {
+    border: 0;
+    outline: 0;
+}
+
+
+body {
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ============================================== */
+.mobile_version {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    outline: 2px solid red;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mobile_version .header {
+    flex: 1;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile_version .header div {
+    width: 100%;
+}
+
+/* ============================================== */
+.mobile_version .main {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.mobile_version .timer {
+    outline: 10px solid blue;
+    font-size: 5.5rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 50%;
+}
+
+.mobile_version .timer .time {
+    width: 100%;
+    color: blue;
+    font-family: 'Digital Dismay';
+}
+
+.mobile_version .speed_info {
+    outline: 1px solid green;
+    font-size: 2rem;
+}
+
+.mobile_version .speed_info span {
+    font-size: 5rem;
+}
+
+/* ============================================== */
+.mobile_version .control_btns {
+    flex: 0.5;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.mobile_version .control_btns .btn {
+    font-size: 2rem;
+    font-weight: bold;
+    outline: 2px solid black;
+    width: 50%;
+}
+
+.mobile_version .control_btns .btn_start {}
+
+.mobile_version .control_btns .btn_stop {}
+
+.mobile_version .control_btns .btn_reset {}

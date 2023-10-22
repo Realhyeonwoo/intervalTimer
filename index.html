@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IntervalTimer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="mobile_version">
+      <div class="header">
+        <div id="nowTime"></div>
+      </div>
+      <div class="main">
+        <div class="info">
+          <div class="timer"><div id="timer" class="time">30:00</div></div>
+          <div class="speed_info"><span id="speedNum">5</span>km/h</div>
+        </div>
+        <div class="control_btns">
+          <button class="btn btn_start" id="btn_start">시작</button>
+          <button class="btn btn_stop hidden" id="btn_stop">중지</button>
+          <button class="btn btn_reset" id="btn_reset">취소</button>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
